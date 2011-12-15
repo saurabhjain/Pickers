@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface DependentComponentPickerViewController : DependentComponentPickerViewController {
+@interface DependentComponentPickerViewController : UIViewController {
     
 }
 

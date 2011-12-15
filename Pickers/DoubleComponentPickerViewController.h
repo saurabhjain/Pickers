@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface DoubleComponentPickerViewController : DoubleComponentPickerViewController {
+@interface DoubleComponentPickerViewController : UIViewController {
     
 }
 
