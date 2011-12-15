@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09187D06149AB0D1008C1CB5 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 09187D00149AB0D1008C1CB5 /* compass.png */; };
+		09187D07149AB0D1008C1CB5 /* inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 09187D01149AB0D1008C1CB5 /* inbox.png */; };
+		09187D08149AB0D1008C1CB5 /* magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 09187D02149AB0D1008C1CB5 /* magnify.png */; };
+		09187D09149AB0D1008C1CB5 /* network.png in Resources */ = {isa = PBXBuildFile; fileRef = 09187D03149AB0D1008C1CB5 /* network.png */; };
+		09187D0A149AB0D1008C1CB5 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 09187D04149AB0D1008C1CB5 /* phone.png */; };
+		09187D0B149AB0D1008C1CB5 /* tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 09187D05149AB0D1008C1CB5 /* tv.png */; };
 		09AC016F149A9F950068D6FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AC016E149A9F950068D6FA /* UIKit.framework */; };
 		09AC0171149A9F950068D6FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AC0170149A9F950068D6FA /* Foundation.framework */; };
 		09AC0173149A9F950068D6FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AC0172149A9F950068D6FA /* CoreGraphics.framework */; };
@@ -27,6 +33,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09187D00149AB0D1008C1CB5 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		09187D01149AB0D1008C1CB5 /* inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inbox.png; sourceTree = "<group>"; };
+		09187D02149AB0D1008C1CB5 /* magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnify.png; sourceTree = "<group>"; };
+		09187D03149AB0D1008C1CB5 /* network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = network.png; sourceTree = "<group>"; };
+		09187D04149AB0D1008C1CB5 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		09187D05149AB0D1008C1CB5 /* tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tv.png; sourceTree = "<group>"; };
 		09AC016A149A9F950068D6FA /* Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09AC016E149A9F950068D6FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		09AC0170149A9F950068D6FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,6 +81,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09187CFE149AB069008C1CB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09187D00149AB0D1008C1CB5 /* compass.png */,
+				09187D01149AB0D1008C1CB5 /* inbox.png */,
+				09187D02149AB0D1008C1CB5 /* magnify.png */,
+				09187D03149AB0D1008C1CB5 /* network.png */,
+				09187D04149AB0D1008C1CB5 /* phone.png */,
+				09187D05149AB0D1008C1CB5 /* tv.png */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		09AC015F149A9F950068D6FA = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +144,7 @@
 				09AC017E149A9F950068D6FA /* PickersAppDelegate.m */,
 				09AC0180149A9F950068D6FA /* MainWindow.xib */,
 				09AC0175149A9F950068D6FA /* Supporting Files */,
+				09187CFE149AB069008C1CB5 /* Resources */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -190,6 +217,12 @@
 				09AC01A3149AA28F0068D6FA /* DoubleComponentPickerViewController.xib in Resources */,
 				09AC01A8149AA2D90068D6FA /* DependentComponentPickerViewController.xib in Resources */,
 				09AC01AD149AA3010068D6FA /* CustomComponentPickerViewController.xib in Resources */,
+				09187D06149AB0D1008C1CB5 /* compass.png in Resources */,
+				09187D07149AB0D1008C1CB5 /* inbox.png in Resources */,
+				09187D08149AB0D1008C1CB5 /* magnify.png in Resources */,
+				09187D09149AB0D1008C1CB5 /* network.png in Resources */,
+				09187D0A149AB0D1008C1CB5 /* phone.png in Resources */,
+				09187D0B149AB0D1008C1CB5 /* tv.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +354,7 @@
 				09AC0187149A9F950068D6FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
