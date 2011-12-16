@@ -10,6 +10,17 @@
 
 
 @implementation DatePickerViewController
+@synthesize datePicker;
+
+- (IBAction)buttonPressed {
+    
+    NSDate *selected = [datePicker date];
+    NSString *message = [[NSString alloc] initWithFormat:@"The date and time you selected is: %@", selected];
+    UIAlertView *alert  = [[UIAlertView alloc] initWithTitle:@"Date and Time selected" message:message delegate:nil cancelButtonTitle:@"Yes I did." otherButtonTitles:nil];
+    [alert show];
+    [alert release];
+    [message release];
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -22,6 +33,7 @@
 
 - (void)dealloc
 {
+    [datePicker release];
     [super dealloc];
 }
 
@@ -37,6 +49,10 @@
 
 - (void)viewDidLoad
 {
+    
+    NSDate *now = [[NSDate alloc] init];
+    [datePicker setDate:now animated:YES];
+    [now release];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }

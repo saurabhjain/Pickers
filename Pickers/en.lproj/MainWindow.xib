@@ -60,7 +60,7 @@
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<bool key="IBUIResizesToFullScreen">YES</bool>
 			</object>
-			<object class="IBUITabBarController" id="149552162">
+			<object class="IBUITabBarController" id="288592924">
 				<object class="IBUISimulatedTabBarMetrics" key="IBUISimulatedBottomBarMetrics"/>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
@@ -69,17 +69,16 @@
 				</object>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<bool key="IBUIHorizontal">NO</bool>
-				<object class="IBUIViewController" key="IBUISelectedViewController" id="407562984">
-					<object class="IBUITabBarItem" key="IBUITabBarItem" id="101923399">
+				<object class="IBUIViewController" key="IBUISelectedViewController" id="467921538">
+					<object class="IBUITabBarItem" key="IBUITabBarItem" id="202305300">
 						<string key="IBUITitle">Custom</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">inbox.png</string>
 						</object>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<reference key="IBUITabBar" ref="76783802"/>
 					</object>
-					<reference key="IBUIParentViewController" ref="149552162"/>
+					<reference key="IBUIParentViewController" ref="288592924"/>
 					<string key="IBUINibName">CustomComponentPickerViewController</string>
 					<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 						<int key="IBUIInterfaceOrientation">1</int>
@@ -90,17 +89,16 @@
 				</object>
 				<object class="NSMutableArray" key="IBUIViewControllers">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUIViewController" id="233532215">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="898491973">
+					<object class="IBUIViewController" id="540639611">
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="823397015">
 							<string key="IBUITitle">Date</string>
 							<object class="NSCustomResource" key="IBUIImage">
 								<string key="NSClassName">NSImage</string>
 								<string key="NSResourceName">magnify.png</string>
 							</object>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<reference key="IBUITabBar" ref="76783802"/>
 						</object>
-						<reference key="IBUIParentViewController" ref="149552162"/>
+						<reference key="IBUIParentViewController" ref="288592924"/>
 						<string key="IBUINibName">DatePickerViewController</string>
 						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 							<int key="IBUIInterfaceOrientation">1</int>
@@ -109,17 +107,16 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIHorizontal">NO</bool>
 					</object>
-					<object class="IBUIViewController" id="968776759">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="72719073">
+					<object class="IBUIViewController" id="589865800">
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="345531872">
 							<string key="IBUITitle">Single</string>
 							<object class="NSCustomResource" key="IBUIImage">
 								<string key="NSClassName">NSImage</string>
 								<string key="NSResourceName">compass.png</string>
 							</object>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<reference key="IBUITabBar" ref="76783802"/>
 						</object>
-						<reference key="IBUIParentViewController" ref="149552162"/>
+						<reference key="IBUIParentViewController" ref="288592924"/>
 						<string key="IBUINibName">SingleComponentPickerViewController</string>
 						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 							<int key="IBUIInterfaceOrientation">1</int>
@@ -128,17 +125,16 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIHorizontal">NO</bool>
 					</object>
-					<object class="IBUIViewController" id="776713685">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="548554792">
+					<object class="IBUIViewController" id="307270366">
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="1008646511">
 							<string key="IBUITitle">Double</string>
 							<object class="NSCustomResource" key="IBUIImage">
 								<string key="NSClassName">NSImage</string>
 								<string key="NSResourceName">network.png</string>
 							</object>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<reference key="IBUITabBar" ref="76783802"/>
 						</object>
-						<reference key="IBUIParentViewController" ref="149552162"/>
+						<reference key="IBUIParentViewController" ref="288592924"/>
 						<string key="IBUINibName">DoubleComponentPickerViewController</string>
 						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 							<int key="IBUIInterfaceOrientation">1</int>
@@ -147,17 +143,16 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIHorizontal">NO</bool>
 					</object>
-					<object class="IBUIViewController" id="185250495">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="193930291">
+					<object class="IBUIViewController" id="642560012">
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="878608670">
 							<string key="IBUITitle">Dependent</string>
 							<object class="NSCustomResource" key="IBUIImage">
 								<string key="NSClassName">NSImage</string>
 								<string key="NSResourceName">phone.png</string>
 							</object>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<reference key="IBUITabBar" ref="76783802"/>
 						</object>
-						<reference key="IBUIParentViewController" ref="149552162"/>
+						<reference key="IBUIParentViewController" ref="288592924"/>
 						<string key="IBUINibName">DependentComponentPickerViewController</string>
 						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 							<int key="IBUIInterfaceOrientation">1</int>
@@ -166,28 +161,18 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIHorizontal">NO</bool>
 					</object>
-					<reference ref="407562984"/>
+					<reference ref="467921538"/>
 				</object>
-				<object class="IBUITabBar" key="IBUITabBar" id="76783802">
+				<object class="IBUITabBar" key="IBUITabBar" id="113341075">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">266</int>
 					<string key="NSFrame">{{0, 431}, {320, 49}}</string>
 					<reference key="NSSuperview"/>
-					<reference key="NSWindow"/>
 					<object class="NSColor" key="IBUIBackgroundColor">
 						<int key="NSColorSpace">3</int>
 						<bytes key="NSWhite">MCAwAA</bytes>
 					</object>
 					<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-					<object class="NSMutableArray" key="IBUIItems">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<reference ref="898491973"/>
-						<reference ref="72719073"/>
-						<reference ref="548554792"/>
-						<reference ref="193930291"/>
-						<reference ref="101923399"/>
-					</object>
-					<reference key="IBUISelectedItem" ref="101923399"/>
 				</object>
 			</object>
 		</object>
@@ -214,7 +199,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">rootController</string>
 						<reference key="source" ref="664661524"/>
-						<reference key="destination" ref="149552162"/>
+						<reference key="destination" ref="288592924"/>
 					</object>
 					<int key="connectionID">22</int>
 				</object>
@@ -254,92 +239,92 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
-						<reference key="object" ref="149552162"/>
+						<reference key="object" ref="288592924"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="76783802"/>
-							<reference ref="233532215"/>
-							<reference ref="407562984"/>
-							<reference ref="968776759"/>
-							<reference ref="776713685"/>
-							<reference ref="185250495"/>
+							<reference ref="113341075"/>
+							<reference ref="540639611"/>
+							<reference ref="467921538"/>
+							<reference ref="589865800"/>
+							<reference ref="307270366"/>
+							<reference ref="642560012"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">11</int>
-						<reference key="object" ref="76783802"/>
-						<reference key="parent" ref="149552162"/>
+						<reference key="object" ref="113341075"/>
+						<reference key="parent" ref="288592924"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">12</int>
-						<reference key="object" ref="233532215"/>
+						<reference key="object" ref="540639611"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="898491973"/>
+							<reference ref="823397015"/>
 						</object>
-						<reference key="parent" ref="149552162"/>
+						<reference key="parent" ref="288592924"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">13</int>
-						<reference key="object" ref="407562984"/>
+						<reference key="object" ref="467921538"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="101923399"/>
+							<reference ref="202305300"/>
 						</object>
-						<reference key="parent" ref="149552162"/>
+						<reference key="parent" ref="288592924"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">14</int>
-						<reference key="object" ref="101923399"/>
-						<reference key="parent" ref="407562984"/>
+						<reference key="object" ref="202305300"/>
+						<reference key="parent" ref="467921538"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">15</int>
-						<reference key="object" ref="898491973"/>
-						<reference key="parent" ref="233532215"/>
+						<reference key="object" ref="823397015"/>
+						<reference key="parent" ref="540639611"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">16</int>
-						<reference key="object" ref="968776759"/>
+						<reference key="object" ref="589865800"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="72719073"/>
+							<reference ref="345531872"/>
 						</object>
-						<reference key="parent" ref="149552162"/>
+						<reference key="parent" ref="288592924"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">17</int>
-						<reference key="object" ref="72719073"/>
-						<reference key="parent" ref="968776759"/>
+						<reference key="object" ref="345531872"/>
+						<reference key="parent" ref="589865800"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">18</int>
-						<reference key="object" ref="776713685"/>
+						<reference key="object" ref="307270366"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="548554792"/>
+							<reference ref="1008646511"/>
 						</object>
-						<reference key="parent" ref="149552162"/>
+						<reference key="parent" ref="288592924"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">19</int>
-						<reference key="object" ref="548554792"/>
-						<reference key="parent" ref="776713685"/>
+						<reference key="object" ref="1008646511"/>
+						<reference key="parent" ref="307270366"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">20</int>
-						<reference key="object" ref="185250495"/>
+						<reference key="object" ref="642560012"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="193930291"/>
+							<reference ref="878608670"/>
 						</object>
-						<reference key="parent" ref="149552162"/>
+						<reference key="parent" ref="288592924"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">21</int>
-						<reference key="object" ref="193930291"/>
-						<reference key="parent" ref="185250495"/>
+						<reference key="object" ref="878608670"/>
+						<reference key="parent" ref="642560012"/>
 					</object>
 				</object>
 			</object>
@@ -408,83 +393,7 @@
 			<nil key="sourceID"/>
 			<int key="maxID">22</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<bool key="EncodedWithXMLCoder">YES</bool>
-				<object class="IBPartialClassDescription">
-					<string key="className">DatePickerViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/DatePickerViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">DependentComponentPickerViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/DependentComponentPickerViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">DoubleComponentPickerViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/DoubleComponentPickerViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">PickersAppDelegate</string>
-					<string key="superclassName">NSObject</string>
-					<object class="NSMutableDictionary" key="outlets">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="NSArray" key="dict.sortedKeys">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>rootController</string>
-							<string>window</string>
-						</object>
-						<object class="NSMutableArray" key="dict.values">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>UITabBarController</string>
-							<string>UIWindow</string>
-						</object>
-					</object>
-					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="NSArray" key="dict.sortedKeys">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>rootController</string>
-							<string>window</string>
-						</object>
-						<object class="NSMutableArray" key="dict.values">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<object class="IBToOneOutletInfo">
-								<string key="name">rootController</string>
-								<string key="candidateClassName">UITabBarController</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">window</string>
-								<string key="candidateClassName">UIWindow</string>
-							</object>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/PickersAppDelegate.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">SingleComponentPickerViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/SingleComponentPickerViewController.h</string>
-					</object>
-				</object>
-			</object>
-		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
