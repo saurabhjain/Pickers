@@ -10,6 +10,42 @@
 
 
 @implementation SingleComponentPickerViewController
+@synthesize singlePicker;
+@synthesize pickerData;
+
+- (IBAction)buttonPressed {
+    
+    NSInteger row = [singlePicker selectedRowInComponent:0];
+    NSString *selected = [pickerData objectAtIndex:row];
+    NSString *title = [[NSString alloc] initWithFormat:@"You Selected %@ !", selected];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:@"Thank you for choosing." delegate:nil cancelButtonTitle:@"You're welcome" otherButtonTitles:nil];
+    [alert show];
+    [alert release];
+    [title release];
+    
+}
+
+#pragma mark -
+#pragma mark - Picker Data Source Methods
+- (NSInteger) numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+    
+    return 1;    
+
+}
+
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
+    
+    return [pickerData count];
+    
+}
+
+#pragma mark Picker Delegate Methods
+
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
+    
+    return [pickerData objectAtIndex:row];
+    
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -22,6 +58,8 @@
 
 - (void)dealloc
 {
+    [singlePicker release];
+    [pickerData release];
     [super dealloc];
 }
 
@@ -37,6 +75,10 @@
 
 - (void)viewDidLoad
 {
+    
+    NSArray *array = [[NSArray alloc] initWithObjects:@"Luke", @"Leia", @"Han", @"Chewbacca", @"Artoo", @"Threepio", @"Lando",nil];
+    self.pickerData = array;
+    [array release];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
