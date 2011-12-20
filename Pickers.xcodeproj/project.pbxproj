@@ -30,6 +30,7 @@
 		09AC01A8149AA2D90068D6FA /* DependentComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09AC01A6149AA2D90068D6FA /* DependentComponentPickerViewController.xib */; };
 		09AC01AC149AA3010068D6FA /* CustomComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AC01AA149AA3010068D6FA /* CustomComponentPickerViewController.m */; };
 		09AC01AD149AA3010068D6FA /* CustomComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09AC01AB149AA3010068D6FA /* CustomComponentPickerViewController.xib */; };
+		09D48C0914A109CD00189BA2 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09D48C0814A109CD00189BA2 /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		09AC01A9149AA3010068D6FA /* CustomComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomComponentPickerViewController.h; sourceTree = "<group>"; };
 		09AC01AA149AA3010068D6FA /* CustomComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomComponentPickerViewController.m; sourceTree = "<group>"; };
 		09AC01AB149AA3010068D6FA /* CustomComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomComponentPickerViewController.xib; sourceTree = "<group>"; };
+		09D48C0814A109CD00189BA2 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		09AC0175149A9F950068D6FA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				09D48C0814A109CD00189BA2 /* statedictionary.plist */,
 				09AC0176149A9F950068D6FA /* Pickers-Info.plist */,
 				09AC0177149A9F950068D6FA /* InfoPlist.strings */,
 				09AC017A149A9F950068D6FA /* Pickers-Prefix.pch */,
@@ -223,6 +226,7 @@
 				09187D09149AB0D1008C1CB5 /* network.png in Resources */,
 				09187D0A149AB0D1008C1CB5 /* phone.png in Resources */,
 				09187D0B149AB0D1008C1CB5 /* tv.png in Resources */,
+				09D48C0914A109CD00189BA2 /* statedictionary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
