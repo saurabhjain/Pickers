@@ -8,7 +8,6 @@
 
 #import "DependentComponentPickerViewController.h"
 
-
 @implementation DependentComponentPickerViewController
 @synthesize picker;
 @synthesize stateZips;
@@ -32,7 +31,6 @@
     [alert release];
     [title release];
     [message release];
-    
 }
 
 # pragma mark -
@@ -59,6 +57,7 @@
 
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
     if (component == kStateComponent) {
+        
         NSString *selectedState = [self.states objectAtIndex:row];
         NSArray *array = [stateZips objectForKey:selectedState];
         self.zips = array;
@@ -100,6 +99,7 @@
 
 - (void)viewDidLoad
 {
+    
     NSBundle *bundle = [NSBundle mainBundle];
     NSString *plistPath = [bundle pathForResource:@"statedictionary" ofType:@"plist"];
     
