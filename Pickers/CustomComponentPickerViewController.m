@@ -98,12 +98,6 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-}
-
-- (void)viewDidUnload
-{
     UIImage *compass = [UIImage imageNamed:@"compass.png"];
     UIImage *inbox = [UIImage imageNamed:@"inbox.png"];
     UIImage *magnify = [UIImage imageNamed:@"magnify.png"];
@@ -137,6 +131,12 @@
     
     srandom(time(NULL));
     
+    [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
+}
+
+- (void)viewDidUnload
+{
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
