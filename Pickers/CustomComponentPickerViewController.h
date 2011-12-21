@@ -13,6 +13,7 @@
     
     IBOutlet UIPickerView *picker;
     IBOutlet UILabel *winLabel;
+    IBOutlet UIButton *button;
     
     NSArray *column1;
     NSArray *column2;
@@ -28,6 +29,7 @@
 @property(nonatomic, retain) NSArray *column3;
 @property(nonatomic, retain) NSArray *column4;
 @property(nonatomic, retain) NSArray *column5;
+@property(nonatomic, retain) UIButton *button;
 
 - (IBAction)spin;
 

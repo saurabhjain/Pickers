@@ -30,6 +30,10 @@
 		09AC01A8149AA2D90068D6FA /* DependentComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09AC01A6149AA2D90068D6FA /* DependentComponentPickerViewController.xib */; };
 		09AC01AC149AA3010068D6FA /* CustomComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AC01AA149AA3010068D6FA /* CustomComponentPickerViewController.m */; };
 		09AC01AD149AA3010068D6FA /* CustomComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09AC01AB149AA3010068D6FA /* CustomComponentPickerViewController.xib */; };
+		09B8B83114A26E0B00083ED4 /* applause2_x.wav in Resources */ = {isa = PBXBuildFile; fileRef = 09B8B82E14A26E0B00083ED4 /* applause2_x.wav */; };
+		09B8B83214A26E0B00083ED4 /* jackpot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 09B8B82F14A26E0B00083ED4 /* jackpot.wav */; };
+		09B8B83314A26E0B00083ED4 /* slot_payoff.wav in Resources */ = {isa = PBXBuildFile; fileRef = 09B8B83014A26E0B00083ED4 /* slot_payoff.wav */; };
+		09B8B83614A274C800083ED4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B8B83514A274C800083ED4 /* AudioToolbox.framework */; };
 		09D48C0914A109CD00189BA2 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09D48C0814A109CD00189BA2 /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +70,10 @@
 		09AC01A9149AA3010068D6FA /* CustomComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomComponentPickerViewController.h; sourceTree = "<group>"; };
 		09AC01AA149AA3010068D6FA /* CustomComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomComponentPickerViewController.m; sourceTree = "<group>"; };
 		09AC01AB149AA3010068D6FA /* CustomComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomComponentPickerViewController.xib; sourceTree = "<group>"; };
+		09B8B82E14A26E0B00083ED4 /* applause2_x.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = applause2_x.wav; sourceTree = "<group>"; };
+		09B8B82F14A26E0B00083ED4 /* jackpot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jackpot.wav; sourceTree = "<group>"; };
+		09B8B83014A26E0B00083ED4 /* slot_payoff.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = slot_payoff.wav; sourceTree = "<group>"; };
+		09B8B83514A274C800083ED4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		09D48C0814A109CD00189BA2 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B8B83614A274C800083ED4 /* AudioToolbox.framework in Frameworks */,
 				09AC016F149A9F950068D6FA /* UIKit.framework in Frameworks */,
 				09AC0171149A9F950068D6FA /* Foundation.framework in Frameworks */,
 				09AC0173149A9F950068D6FA /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +95,9 @@
 		09187CFE149AB069008C1CB5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				09B8B82E14A26E0B00083ED4 /* applause2_x.wav */,
+				09B8B82F14A26E0B00083ED4 /* jackpot.wav */,
+				09B8B83014A26E0B00083ED4 /* slot_payoff.wav */,
 				09187D00149AB0D1008C1CB5 /* compass.png */,
 				09187D01149AB0D1008C1CB5 /* inbox.png */,
 				09187D02149AB0D1008C1CB5 /* magnify.png */,
@@ -117,6 +129,7 @@
 		09AC016D149A9F950068D6FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				09B8B83514A274C800083ED4 /* AudioToolbox.framework */,
 				09AC016E149A9F950068D6FA /* UIKit.framework */,
 				09AC0170149A9F950068D6FA /* Foundation.framework */,
 				09AC0172149A9F950068D6FA /* CoreGraphics.framework */,
@@ -227,6 +240,9 @@
 				09187D0A149AB0D1008C1CB5 /* phone.png in Resources */,
 				09187D0B149AB0D1008C1CB5 /* tv.png in Resources */,
 				09D48C0914A109CD00189BA2 /* statedictionary.plist in Resources */,
+				09B8B83114A26E0B00083ED4 /* applause2_x.wav in Resources */,
+				09B8B83214A26E0B00083ED4 /* jackpot.wav in Resources */,
+				09B8B83314A26E0B00083ED4 /* slot_payoff.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

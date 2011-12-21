@@ -7,6 +7,7 @@
 //
 
 #import "CustomComponentPickerViewController.h"
+#import <AudioToolbox/AudioToolbox.h>
 
 
 @implementation CustomComponentPickerViewController
@@ -17,6 +18,22 @@
 @synthesize column3;
 @synthesize column4;
 @synthesize column5;
+@synthesize button;
+
+- (void)showButton {
+    
+    button.hidden = NO;
+}
+
+- (void)playWinSound {
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"slot_payoff" ofType:@"wav"];
+    SystemSoundID soundID;
+    AudioServicesCreateSystemSoundID((CFURLRef)[NSURL fileURLWithPath:path], &soundID);
+    AudioServicesPlaySystemSound(soundID);
+    winLabel.text = @"Win!";
+    [self performSelector:@selector(showButton) withObject:nil afterDelay:1.5];
+}
 
 - (IBAction)spin {
     
@@ -38,10 +55,19 @@
             win = YES;
     }
     
+    button.hidden = YES;
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"applause2_x" ofType:@"wav"];
+    SystemSoundID soundID;
+    AudioServicesCreateSystemSoundID((CFURLRef)[NSURL fileURLWithPath:path], &soundID);
+    AudioServicesPlaySystemSound(soundID);
+    
     if (win)
-        winLabel.text = @"Win!";
+        [self performSelector:@selector(playWinSound) withObject:nil afterDelay:.5];
+        //winLabel.text = @"Win!";
     else
-        winLabel.text = @"";
+        [self performSelector:@selector(showButton) withObject:nil afterDelay:.5];
+        
+    winLabel.text = @"";
 }
 
 # pragma mark -
@@ -83,6 +109,7 @@
     [column3 release];
     [column4 release];
     [column5 release];
+    [button release];
     [super dealloc];
 }
 
